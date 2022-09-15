@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../css/Comfortaa.ttf');
+}
+@font-face {
+    font-family: 'Didact';
+    src: url('../css/Didact.ttf');
+}
+.body {
+    background-image: url('../images/all_img.jpg');
+    width: 99%;
+    height: 100%;
+}
+.window_chat {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 550px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+.input {
+    background: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 51px;
+}
+.send {
+    cursor: pointer;
+    border-color: rgb(49, 49, 49);
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    font-weight: bold;
+    background: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 36px;
+    margin-top: 7px;
+}
+.send:hover {
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+}
+.geo {
+    cursor: pointer;
+    background: none;
+    border: none;
+    height: 47px;
+}
+.geo:hover {
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+}
+.output {
+    width: 613px;
+	height: 480px;
+	background: none;
+	margin-top: -564px;
+    margin-left: 352px;
+	border-radius: 5px;
+	overflow-y: scroll;
+	padding: 15px;
+	border: 2px solid rgb(49, 49, 49);
+	display: flex;
+	flex-direction: column;
+}
+.recieved {
+    font-family: 'Didact';
+	background: none;
+	min-width: 100px;
+	max-width: 250px;
+	min-height: 50px;
+	max-height: none;
+	padding: 10px;
+	border-radius: 4px;
+	overflow-wrap: break-word;
+	box-shadow: 5px 2px 10px 1px rgb(54, 54, 252);
+	border: 2px solid rgb(49, 49, 49);
+	float: right;
+    margin-bottom: 10px;
+}
+.sent {
+    font-family: 'Didact';
+    background: none;
+	min-width: 100px;
+	max-width: 250px;
+	min-height: 50px;
+	max-height: none;
+	padding: 10px;
+	border-radius: 4px;
+	overflow-wrap: break-word;
+	box-shadow: 5px 2px 10px 1px black;
+	border: 2px solid rgb(49, 49, 49);
+	margin-left: 320px;
+    margin-bottom: 10px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    text-decoration: none;
+    color: rgb(54, 54, 252);
+    transition: all ease 0.2s;
+    padding-bottom: 1px;
+    border-bottom:rgb(54, 54, 252) solid 1px;
+}
